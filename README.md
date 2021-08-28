@@ -1,7 +1,6 @@
 # CSUN ECE 524L Fall 2021
 ## Lab 3 - FPAG Features Clock Management, DSP Blocks, DDR, and SRL
 
-
 **Report Created by:**
 - Group n (If applicable)
 - student A
