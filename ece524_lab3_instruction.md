@@ -59,7 +59,7 @@ clk2x domain, at twice the nominal frequency. Figure 3.2 shows registers before/
 
 The operating mode of the adder alternates between add 0 (pass through) mode and add output (accumulate) mode. The DSP slice output register contains the result of the P0 × alpha multiply during one clock cycle, and the final result, `P_1 * (1 – a) + P_0 * a`, on the alternate clock. The final output register for blend loads new data every other DSP clock to register the blend results.
 
-![Signal stream blender high level block diagram](./img/lab3_diagram_1.png)
+![Signal stream blender high level block diagram](./img/lab3_diagram_2.png)
 
 Figure 3.2 Suggested block diagram of the proposed interleaver
 
