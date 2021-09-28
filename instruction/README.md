@@ -80,9 +80,3 @@ Figure 3.3 Suggested block diagram of the proposed interleaver including delay c
 :point_right: **Task 3:** In the third part of the lab, apply 64 clock cycle delay to P_0 stream using SRL components according to Figure 3.3. You can use IP Integrator to generate the SRL components. The testbench developed in the first part of the lab should be slightly modified so you can apply it to the third part of the lab. Provide the simulation waveform to prove your design is functioning.
 
 :question: **Question 5:** Implement the design. What is the resource utilization of the design? 
-
-:question: **Question 6:** Can you implement the same delay using Block RAM (BRAM)? How? Explain your answer. 
-
-:point_right: **Task 4:** Replace the SRL components with Block RAMs (BRAMs) that create the same amount of delay and prove your design works by providing simulation.
-
-:question: **Question 7:** Implement the design. What is the resource utilization of the design? 
