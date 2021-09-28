@@ -31,9 +31,6 @@ P_f = a * P_0 + (1 - a) * P_1
 
 There are several configuration options for implementing this functionality. 
 
-
-The frequency response of the CIC filter is given in Figure 2.2. You are going to write VHDL testbenches to verify the functionality of this CIC filter at three points (frequencies) shown on Figure 2.2. Read the procedure part for the instructions on how to write testbenches in different ways. The three frequencies show the passband and stopband frequencies of this filter. You can use Excel application software to do the graphing part of the work since the ISIM simulation software generates only the number values for all signals. Some simulation tools such as Modelsim have graphing modes to view sine waves as well. 
-
 ### Part I
 
 **Direct Implementation:** Simple VHDL concurrent statement can be written to directly implement the arithmetic expression for output equation (P_f). Data streams P_0 and P_1 can represent two signal streams that can be blended. Figure 3.1 shows a straightforward implementation of this blender. In Figure 3.1, signal stream 0 consists of P_0 and alpha inputs. They are multiplied together and similarly, signal stream 1 consists of inputs P_1 and (1 – a) that are multiplied together and output the products are added together. The output of each arithmetic block (multipliers and adders) must be registered for this implementation to maximize performance.
